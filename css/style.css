@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+@media all and (max-width:400) and (orientation: portrait) and ((max-resolution:144dpi), (-webkit-max-device-pixel-ratio:1.5)) {
+    /* 只有在布局视口不超过400px、设备处于竖屏模式，并且devicePixelRation小于等于1.5时才生效。 */
+}
