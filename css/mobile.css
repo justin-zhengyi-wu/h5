@@ -63,3 +63,9 @@ body {
     /* \5B8B\4F53 is '宋体' */
     /* font:12px/1.5 tahoma,arial,"\5B8B\4F53",sans-serif; */
 }
+
+/* Remove the rectangle border when clicked on Android */
+a,button,input,textarea {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-modify:read-write-plaintext-only;
+}
